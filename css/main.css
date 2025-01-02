@@ -61,7 +61,7 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: ;
+    background-color: lightgrey;
   }
 
   #column-1 {
@@ -74,19 +74,23 @@ footer {
 
   #column-3 {
     background-color: steelblue;
+    width: 100%;
   }
 
   footer {
-    background-color: ;
+    background-color: lightgray;
   }
 
+  .col-3 {
+    width: 50%;
+  }
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: ;
+    background-color: darkgray;
   }
 
   #column-1 {
@@ -99,10 +103,15 @@ footer {
 
   #column-3 {
     background-color: lightblue;
+    width: 33%;
   }
 
   footer {
-    background-color: ;
+    background-color: darkgray;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
 
 }
